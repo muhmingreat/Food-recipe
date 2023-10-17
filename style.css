@@ -1,0 +1,128 @@
+* {
+ margin:0;
+box-sizing:border-box ; 
+padding: 0;  
+}
+body {
+    background-color:#ee964b;
+}
+.container{
+background-color:#fff;
+padding:3rem 3.8rem;
+position:absolute;
+width:90vw;
+max-width:40rem;
+transform:translateX(-50%);
+left:50%;
+top: 1rem;
+border-radius: 0.6rem;
+ box-shadow:0 1.2rem 2.5rem rgba(42 , 32, 0,  0.2);
+}
+.search-container{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 9fr 3fr;
+  gap:1.2rem;
+  
+
+}
+.search-container input {
+  font-size:1rem;
+  padding:0.6rem;  
+border: none;
+    outline: none;
+    border-bottom: 2px solid #203030;
+}
+.search-container button {
+    font-size: 1rem;
+    background-color:#ee964b;
+    border:none;
+    border-radius: 0.3rem;
+}
+img {
+    display:block;
+margin:1.8rem auto 0 auto;
+    width:50%;
+}
+#result {
+display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction:column
+}
+.detail {
+    text-align:center;
+    margin:8px;
+    background-color:#ee964b;
+    padding:0.6rem;
+    position:relative;
+}
+.detail h2 {
+    font-size:1.2rem;
+
+}
+.detail h4 {
+    font-size: 1rem
+}
+
+#recipe  pre{
+    white-space:pre-wrap;
+    word-wrap: break-word;
+    padding:2.5rem 1.2rem 1.2rem 1.2rem;
+    font-size:16px;
+    
+}
+#recipe {
+    position:absolute;
+    background-color: #fff;
+    min-height: 100%;
+    top: 0;
+    left:0;
+    z-index: 2;
+    border-radius:0.6rem;
+display:none;
+}
+#hide-recipe {
+font-size:1rem;
+position:relative;
+width:1.8rem;
+height: 1.8rem;
+background-color:#ee964b;
+border:none;
+top:1.2rem;
+left:90%;
+border-radius:0.3rem;
+-webkit-border-radius:0.3rem;
+-moz-border-radius:0.3rem;
+-ms-border-radius:0.3rem;
+-o-border-radius:0.3rem;
+}
+#show-recipe {
+    font-size:1rem;
+    position: relative;
+    left: 2%;
+    padding: 0.9rem 0.6rem;
+    background-color: #ee964b;;
+    border:none;
+    top:1.5rem;
+    border-radius: 0.3rem;
+    
+}
+ul{
+    font-size: 1rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.8 0 0 1.2rem;
+    padding:1.2rem 0 0 1.2rem ;
+
+}
+h3{
+  text-align: center;
+  color:red;
+  margin-top:1.8rem;
+
+}
+li{
+  margin:12px;  
+}
